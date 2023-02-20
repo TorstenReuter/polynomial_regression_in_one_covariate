@@ -16,7 +16,7 @@
 library(shiny)
 library(ggplot2)
 
-dfmain <- readRDS("QuadtDistVis_main_data")
+dfmain <- readRDS("QuadtDistVis_main_data.rda")
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
