@@ -1,6 +1,6 @@
-# polynomial_regression_in_one_covariate
-Accompanying R Scripts to the paper "Optimal Subsampling Design for Polynomial Regression in one Covariate"
-authors: Torsten Reuter and Rainer Schwabe
+# Optimal Subsampling Design for Polynomial Regression in one Covariate
+Accompanying R Scripts to the paper "Optimal Subsampling Design for Polynomial Regression in one Covariate".
+Authors: Torsten Reuter and Rainer Schwabe
 
 This repository contains R Scripts for the following parts of the paper. 
 Including generating all plots and values in the tables.
