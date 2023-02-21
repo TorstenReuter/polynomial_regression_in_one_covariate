@@ -55,7 +55,7 @@ server <- function(input, output) {
 
     output$distPlot <- renderPlot({
         df <- dfmain[dfmain$dof == input$dof,]
-        n <- 800
+        n <- 1200
         eps <- 10^(-3)
         points <- c(seq(-4.5,-0.1,length.out = n/4), seq(-0.1, 0.1, length.out = n/2), seq(0.1,4.5,length.out = n/4))
         CDFphi <- dt(points, df = as.numeric(input$dof))
